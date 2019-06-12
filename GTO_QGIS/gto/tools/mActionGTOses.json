@@ -1,0 +1,67 @@
+{
+	"tools": [{
+			"id": 1,
+			"caption": "SSW GZ100 Überlappungen",
+			"icon": "",
+			"icontext": "",
+			"statustip": "",
+			"tooltip": "",
+			"checked": false,
+			"visible": true,
+			"whatsthis": "",
+			"shortcut": "",
+			"config": {
+				"reload": true,
+				"debug": true,
+				"mode": "current",
+				"selectioncount_0": ["mActionGTOmsg1"],
+				"selectioncount_1": ["mActionGTOmsg2"],
+				"selectioncount_n": ["mActionGTOmsg2"],
+				"selectioncount_else": ["mActionGTOmsg2"],
+				"n": 1
+			}
+		},{
+			"id": 2,
+			"caption": "SSW DOM Felder gültig?",
+			"icon": "",
+			"icontext": "",
+			"statustip": "",
+			"tooltip": "",
+			"checked": false,
+			"visible": true,
+			"whatsthis": "",
+			"shortcut": "",
+			"config": {
+				"reload": true,
+				"debug": true,
+				"mode": "all",
+				"selectioncount_0": ["mActionGTOmsg3"],
+				"selectioncount_1": ["mActionGTOmsg4"],
+				"selectioncount_n": ["mActionGTOmsg4"],
+				"selectioncount_else": ["mActionGTOmsg4"],
+				"n": 1
+			}
+		},{
+			"id": 3,
+			"caption": "SSW Pflichtfelder befüllt?",
+			"icon": "",
+			"icontext": "",
+			"statustip": "",
+			"tooltip": "",
+			"checked": false,
+			"visible": true,
+			"whatsthis": "",
+			"shortcut": "",
+			"config": {
+				"reload": true,
+				"debug": true,
+				"mode": "all",
+				"selectioncount_0": ["mActionGTOmsg5"],
+				"selectioncount_1": ["mActionGTOmsg6"],
+				"selectioncount_n": ["mActionGTOmsg6"],
+				"selectioncount_else": ["mActionGTOmsg6"],
+				"n": 1
+			}
+		}
+	]
+}

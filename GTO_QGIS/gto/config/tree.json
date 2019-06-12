@@ -1,0 +1,102 @@
+       {
+          "caption": "GZP Datentemplate",
+          "on_enter": [],
+          "on_exit": [],
+          "icon": "",
+          "helptext": "logo_GTO.png",
+          "children": [{
+             "caption": "Schritt 1 - Prüfung Datenschema",
+             "on_enter": [],
+             "on_exit": [],
+             "icon": "",
+             "helptext": "logo_GTO.png",
+             "children": [{
+                     "caption": "Schema aller Datensätze korrekt?",
+                     "on_enter": [],
+                     "on_exit": [],
+                     "icon": "",
+                     "helptext": "Dieses Tool prüft, ob das Schema aller Datensätze dem Datenmodell entspricht.\nBei Fehlermeldung bitte gemäß der Digitalen Datenanforderungen korrigieren.",
+                     "children": [],
+                     "tools": ["mActionGTOmacro5"]
+                         }
+                         ],
+             "tools": []
+          },{
+                "caption": "Schritt 2 - Prüfung Felder",
+                "on_enter": [],
+                "on_exit": [],
+                "icon": "",
+                "helptext": "logo_GTO.png",
+                "children": [{
+    						"caption": "Pflichtfelder befüllt?",
+    						"on_enter": ["mActionDeselectAll", "mActionGTOmas2"],
+    						"on_exit": [],
+    						"icon": "",
+    						"helptext": "Dieses Tool prüft, ob alle Pflichtfelder befüllt.\nBei Fehlermeldung bitte alle möglichen Felder (siehe BMNT Digitale Datenanforderungen)\nnochmals kontrollieren.",
+    						"children": [],
+    						"tools": ["mActionGTOmacro3"]
+                        },{
+    						"caption": "Domainwerte gültig?",
+    						"on_enter": ["mActionDeselectAll", "mActionGTOmas2"],
+    						"on_exit": [],
+    						"icon": "",
+    						"helptext": "Dieses Tool prüft, ob alle Auswahlfelder korrekt befüllt.\nBei Fehlermeldung bitte alle möglichen Felder (siehe BMNT Digitale Datenanforderungen)\nnochmals kontrollieren.",
+    						"children": [],
+    						"tools": ["mActionGTOmacro2"]
+            			}],
+                "tools": []
+             },{
+                "caption": "Schritt 3 - Prüfung Projektion",
+                "on_enter": [],
+                "on_exit": [],
+                "icon": "",
+                "helptext": "logo_GTO.png",
+                "children": [{
+						"caption": "Projektion EPSG 31287?",
+                        "on_enter": [],
+						"on_exit": [],
+						"icon": "",
+						"helptext": "Dieses Tool prüft, ob alle Layer in MGI Austria Lambert (EPSG:31287) vorliegen.\nBei Fehlermeldung bitte Projektion ausgewiesener Layer ändern.",
+						"children": [],
+						"tools": ["mActionGTOmacro4"]
+							}
+                            ],
+                "tools": []
+             },{
+                   "caption": "Schritt 4 - Prüfung Überlappungen",
+                   "on_enter": [],
+                   "on_exit": [],
+                   "icon": "",
+                   "helptext": "logo_GTO.png",
+                   "children": [{
+   						"caption": "GZ100 Überlappungen",
+   						"on_enter": ["mActionDeselectAll", "mActionGTOmas1"],
+   						"on_exit": ["mActionGTOmas2"],
+   						"icon": "",
+   						"helptext": "Dieses Tool prüft, ob gelbe GFZs rote GFZs überlappen.\nRote und gelbe Gefahrenzonen mittlerer Wahrscheinlichkeit (HQ100) dürfen sich nicht \nüberlappen. Bei Fehlermeldung muss rote aus gelber Gefahrenzone ausgestanzt werden.",
+   						"children": [],
+   						"tools": ["mActionGTOmacro1"]
+   							}
+   							],
+                   "tools": []
+            },{
+                  "caption": "Schritt 5 - Upload",
+                  "on_enter": [],
+                  "on_exit": [],
+                  "icon": "",
+                  "helptext": "logo_GTO.png",
+                  "children": [{
+  						"caption": "Demnächst verfügbar",
+  						"on_enter": [],
+  						"on_exit": [],
+  						"icon": "",
+  						"helptext": "... Demnächst verfügbar ...",
+  						"children": [],
+  						"tools": []
+  							}
+  							],
+                  "tools": []
+               }
+			 ],
+          "tools": []
+       }

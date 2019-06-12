@@ -1,0 +1,52 @@
+{
+	"tools": [{
+			"id": 1,
+			"caption": "GZ100 Gelb überlappt GZ100 Rot",
+			"icon": "",
+			"icontext": "",
+			"statustip": "",
+			"tooltip": "",
+			"checked": false,
+			"visible": true,
+			"whatsthis": "",
+			"shortcut": "",
+			"config": {
+				"debug": true,
+				"algs":[{"cmd": "native:selectbylocation", "parameters":{"INPUT":"Rote Gefahrenzone HQ100 (GZ100)","PREDICATE":[5],"INTERSECT":"Gelbe Gefahrenzone HQ100 (GZ100)","METHOD":0}, "layer": null, "grouplayer": null, "load": false, "stylefile": null}],
+				"useselection": null
+			}
+		},{
+				"id": 2,
+				"caption": "SSF GZ300",
+				"icon": "",
+				"icontext": "",
+				"statustip": "",
+				"tooltip": "",
+				"checked": false,
+				"visible": true,
+				"whatsthis": "",
+				"shortcut": "",
+				"config": {
+					"debug": true,
+					"algs":[{"cmd": "native:saveselectedfeatures", "parameters":{"INPUT":"Gefahrenzonen HQ300 (GZ300)","OUTPUT":"memory:"}, "layer": "ERROR Domainfelder GZ300", "grouplayer": "Fehlermeldungen", "load": true, "stylefile": null}],
+					"useselection": null
+			}
+		},{
+				"id": 2,
+				"caption": "SSF GZ300",
+				"icon": "",
+				"icontext": "",
+				"statustip": "",
+				"tooltip": "",
+				"checked": false,
+				"visible": true,
+				"whatsthis": "",
+				"shortcut": "",
+				"config": {
+					"debug": true,
+					"algs":[{"cmd": "native:saveselectedfeatures", "parameters":{"INPUT":"Ueberflutungsflaechen (UFHQN)","OUTPUT":"memory:"}, "layer": "ERROR Domainfelder UFHQN", "grouplayer": "Fehlermeldungen", "load": true, "stylefile": null}],
+					"useselection": null
+			}
+		}
+	]
+}

@@ -1,0 +1,83 @@
+{
+	"tools": [{
+		"id": 1,
+		"caption": "Prüfung: GZ100 Überlappungen",
+		"icon": "",
+		"icontext":"",
+		"statustip":"",
+		"tooltip":"",
+		"checked":false,
+		"visible":true,
+		"whatsthis":"",
+		"shortcut":"",
+		"config": {
+			"debug": false,
+			"reload": false,
+			"tools":["mActionDeselectAll", "mActionGTOprocessing1", "mActionZoomtoSelected", "mActionGTOses1"]
+		}
+	},{
+		"id": 2,
+		"caption": "Prüfung: Alle Domainwerte gültig?",
+		"icon": "",
+		"icontext":"",
+		"statustip":"",
+		"tooltip":"",
+		"checked":false,
+		"visible":true,
+		"whatsthis":"",
+		"shortcut":"",
+		"config": {
+			"debug": false,
+			"reload": false,
+			"tools":["mActionDeselectAll", "mActionGTOsba21", "mActionGTOsba22", "mActionGTOsba23", "mActionGTOsba24", "mActionGTOsba25", "mActionGTOsba26", "mActionGTOsba27", "mActionGTOsba28", "mActionGTOsba29", "mActionGTOsba30", "mActionGTOsba31", "mActionGTOsba32", "mActionGTOsba34", "mActionGTOsba35", "mActionGTOsba36", "mActionGTOsba37",  "mActionGTOsba38",  "mActionGTOsba39",  "mActionGTOsba40", "mActionGTOsba41", "mActionGTOcommands4"]
+		}
+	},{
+		"id": 3,
+		"caption": "Prüfung: Alle Pflichtfelder befüllt?",
+		"icon": "",
+		"icontext":"",
+		"statustip":"",
+		"tooltip":"",
+		"checked":false,
+		"visible":true,
+		"whatsthis":"",
+		"shortcut":"",
+		"config": {
+			"debug": false,
+			"reload": false,
+			"tools":["mActionDeselectAll", "mActionGTOsba1","mActionGTOsba2","mActionGTOsba3","mActionGTOsba4","mActionGTOsba5","mActionGTOsba6","mActionGTOsba7","mActionGTOsba8","mActionGTOsba9","mActionGTOsba10","mActionGTOsba11","mActionGTOsba12","mActionGTOsba13","mActionGTOsba14","mActionGTOsba15","mActionGTOsba17","mActionGTOsba18","mActionGTOsba19","mActionGTOsba20", "mActionGTOcommands3"]
+		}
+	},{
+		"id": 4,
+		"caption": "Prüfung: Projektion EPSG 31287?",
+		"icon": "",
+		"icontext":"",
+		"statustip":"",
+		"tooltip":"",
+		"checked":false,
+		"visible":true,
+		"whatsthis":"",
+		"shortcut":"",
+		"config": {
+			"debug": false,
+			"reload": false,
+			"tools":["mActionDeselectAll", "mActionGTOcommands1"]
+		}
+	},{
+		"id": 5,
+		"caption": "Prüfung: Schema aller Datensätze korrekt?",
+		"icon": "",
+		"icontext":"",
+		"statustip":"",
+		"tooltip":"",
+		"checked":false,
+		"visible":true,
+		"whatsthis":"",
+		"shortcut":"",
+		"config": {
+			"debug": false,
+			"reload": false,
+			"tools":["mActionDeselectAll", "mActionGTOcommands2"]
+		}
+	}]
+}

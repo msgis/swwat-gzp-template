@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/plugins/gto_main" >
+        <file>icon.png</file>
+    </qresource>
+</RCC>

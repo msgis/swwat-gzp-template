@@ -1,0 +1,148 @@
+{
+	"tools": [{
+			"id": 1,
+			"caption": "MSG_Pruefung_GZ100_ok",
+			"icon": "",
+			"icontext": "",
+			"statustip": "",
+			"tooltip": "",
+			"checked": false,
+			"visible": true,
+			"whatsthis": "",
+			"shortcut": "",
+			"config": {
+				"debug": false,
+				"title": "Prüfung GZ100",
+				"text": "Prüfung erfolgreich. Rote und gelbe GFZs überlappen nicht.",
+				"informativetext": "",
+				"detailedtext": "",
+				"icon": 0,
+				"button_ok_caption": "OK",
+				"button_ok_tools": [],
+				"button_yes_caption": null,
+				"button_no_caption": null,
+				"button_cancel_caption": null
+			}
+		},{
+			"id": 2,
+			"caption": "MSG_Pruefung_GZ100_nok",
+			"icon": "",
+			"icontext": "",
+			"statustip": "",
+			"tooltip": "",
+			"checked": false,
+			"visible": true,
+			"whatsthis": "",
+			"shortcut": "",
+			"config": {
+				"debug": false,
+				"title": "Prüfung GZ100",
+				"text": "Prüfung NICHT erfolgreich. Bitte korrigieren!\nRote und gelbe GFZs dürfen sich nicht überlappen; bitte rote aus gelber GFZ ausstanzen.",
+				"informativetext": "",
+				"detailedtext": "",
+				"icon": 0,
+				"button_ok_caption": "OK",
+				"button_ok_tools": [],
+				"button_yes_caption": null,
+				"button_no_caption": null,
+				"button_cancel_caption": null
+			}
+		},{
+			"id": 3,
+			"caption": "MSG_Pruefung_DOM_ok",
+			"icon": "",
+			"icontext": "",
+			"statustip": "",
+			"tooltip": "",
+			"checked": false,
+			"visible": true,
+			"whatsthis": "",
+			"shortcut": "",
+			"config": {
+				"debug": false,
+				"title": "Prüfung Domainfelder",
+				"text": "Prüfung erfolgreich. Einträge in den Domainfeldern entsprechen den vorgegebenen Standardwerten.",
+				"informativetext": "",
+				"detailedtext": "",
+				"icon": 0,
+				"button_ok_caption": "OK",
+				"button_ok_tools": [],
+				"button_yes_caption": null,
+				"button_no_caption": null,
+				"button_cancel_caption": null
+			}
+		},{
+			"id": 4,
+			"caption": "MSG_Pruefung_DOM_nok",
+			"icon": "",
+			"icontext": "",
+			"statustip": "",
+			"tooltip": "",
+			"checked": false,
+			"visible": true,
+			"whatsthis": "",
+			"shortcut": "",
+			"config": {
+				"debug": false,
+				"title": "Prüfung Domainfelder",
+				"text": "Achtung: Prüfung NICHT erfolgreich!\nEinträge in einem oder mehreren Feldern der selektierten Feature entsprechen nicht den vorgegeben Standardwerten. Bitte korrigieren.",
+				"informativetext": "",
+				"detailedtext": "",
+				"icon": 0,
+				"button_ok_caption": "OK",
+				"button_ok_tools": [],
+				"button_yes_caption": null,
+				"button_no_caption": null,
+				"button_cancel_caption": null
+			}
+		},{
+			"id": 5,
+			"caption": "MSG_Pruefung_Pflichtfelder_ok",
+			"icon": "",
+			"icontext": "",
+			"statustip": "",
+			"tooltip": "",
+			"checked": false,
+			"visible": true,
+			"whatsthis": "",
+			"shortcut": "",
+			"config": {
+				"debug": false,
+				"title": "Prüfung Pflichtfelder",
+				"text": "Prüfung erfolgreich! Alle Pflichtfelder befüllt.",
+				"informativetext": "",
+				"detailedtext": "",
+				"icon": 0,
+				"button_ok_caption": "OK",
+				"button_ok_tools": [],
+				"button_yes_caption": null,
+				"button_no_caption": null,
+				"button_cancel_caption": null
+			}
+		},{
+			"id": 6,
+			"caption": "MSG_Pruefung_Pflichtfelder_nok",
+			"icon": "",
+			"icontext": "",
+			"statustip": "",
+			"tooltip": "",
+			"checked": false,
+			"visible": true,
+			"whatsthis": "",
+			"shortcut": "",
+			"config": {
+				"debug": false,
+				"title": "Prüfung Pflichtfelder",
+				"text": "Achtung: Prüfung NICHT erfolgreich!\nBitte alle Pflichtfelder befüllen.",
+				"informativetext": "",
+				"detailedtext": "",
+				"icon": 0,
+				"button_ok_caption": "OK",
+				"button_ok_tools": [],
+				"button_yes_caption": null,
+				"button_no_caption": null,
+				"button_cancel_caption": null
+			}
+		}
+	]
+}

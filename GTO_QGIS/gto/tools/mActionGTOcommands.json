@@ -1,0 +1,94 @@
+{
+   "tools": [{
+              "id": 1,
+              "caption": "SCR Prüfung Projektion",
+              "icon": "",
+              "icontext": "",
+              "statustip": "",
+              "tooltip": "",
+              "checked": false,
+              "visible": true,
+              "whatsthis": "",
+              "shortcut": "",
+              "config": {
+                 "debug": true,
+                 "module": "SCR_Projektion.py",
+                 "command": "testProjektion",
+                 "settings": {},
+                 "parameters":[]
+                 }
+        },{
+               "id": 2,
+               "caption": "SCR Prüfung Datenmodell",
+               "icon": "",
+               "icontext": "",
+               "statustip": "",
+               "tooltip": "",
+               "checked": false,
+               "visible": true,
+               "whatsthis": "",
+               "shortcut": "",
+               "config": {
+                  "debug": true,
+                  "module": "SCR_ValidateSchema.py",
+                  "command": "testDatenmodell",
+                  "settings": {},
+                  "parameters":[]
+                  }
+        },{
+               "id": 3,
+               "caption": "SCR Message PFLICHT",
+               "icon": "",
+               "icontext": "",
+               "statustip": "",
+               "tooltip": "",
+               "checked": false,
+               "visible": true,
+               "whatsthis": "",
+               "shortcut": "",
+               "config": {
+                  "debug": true,
+                  "module": "SCR_CustomMessages.py",
+                  "command": "messagePFLICHT",
+                  "settings": {},
+                  "parameters":[]
+                  }
+        },{
+               "id": 4,
+               "caption": "SCR Message DOM",
+               "icon": "",
+               "icontext": "",
+               "statustip": "",
+               "tooltip": "",
+               "checked": false,
+               "visible": true,
+               "whatsthis": "",
+               "shortcut": "",
+               "config": {
+                  "debug": true,
+                  "module": "SCR_CustomMessages.py",
+                  "command": "messageDOM",
+                  "settings": {},
+                  "parameters":[]
+                  }
+        },{
+               "id": 6,
+               "caption": "Synchronisierungstabelle befüllen",
+               "icon": "",
+               "icontext": "",
+               "statustip": "",
+               "tooltip": "",
+               "checked": false,
+               "visible": true,
+               "whatsthis": "",
+               "shortcut": "",
+               "config": {
+                  "debug": true,
+                  "module": "SCR_CompileSyncLog.py",
+                  "command": "compileSyncLog",
+                  "settings": {},
+                  "parameters":[]
+                  }
+        }
+    ]
+}
