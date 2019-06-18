@@ -10,4 +10,6 @@ e)	  Überlappung der roten Gefahrenzone durch die gelbe Gefahrenzone.  <br>
 
 Die Teilprüfungen (a–e) wurden als Tasks im GeoTaskOrganizer der Firma ms.GIS konfiguriert. Der GeoTaskOrganizer wird dem User für ArcGIS Desktop als Extension bzw. für QGIS als Plugin ohne zusätzliche Lizenzkosten und speziell zum Zweck der GZP Datenprüfung zur Verfügung gestellt. <br>
 
-Anleitungen beschreiben die Installation und Handhabung des GeoTaskOrganizer für ArcGIS for Desktop und QGIS. Eine vorkonfigurierte Prüfung durch ArcGIS Pro ist derzeit nicht vorgesehen.
+Anleitungen beschreiben die Installation und Handhabung des GeoTaskOrganizer für ArcGIS for Desktop und QGIS. Eine vorkonfigurierte Prüfung durch ArcGIS Pro ist derzeit nicht vorgesehen. <br>
+
+Die aktuelle Version der Datentemplates befindet sich auf der Subseite __[*swwat-gzp-template/releases*](https://github.com/msgis/swwat-gzp-template/releases)__.
