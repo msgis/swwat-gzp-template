@@ -1,0 +1,63 @@
+{
+	"GTO Widget": {
+		"gto_ui": "gto.ui",
+		"gto_dock": 1,
+		"_gto_dock": "where the gto docks: 1=left, 2=right",
+		"gto_plugins": [],
+		"gto_startuptools": [],
+		"_gto_startuptools": "run when gto is loaded",
+		"gto_minium_width": 100,
+		"gto_maximum_width": 500,
+		"_gto_minium_width": "width of the gto widget. If max=min not re-sizable!"
+	},
+	"GTO Toolbar": {
+		"toolbar_style": 0,
+		"_toolbar_style": "0=IconOnly, 1=TextOnly, 2= TextBesideIcon, 3=TextUnderIcon",
+		"toolbar_dock": 8,
+		"_toolbar_dock": "where the gto toolbar docks. 4=top, 8=bottom",
+		"toolbar_height": 60,
+		"_toolbar_height": "sets a fixed height for all gto toolbars. default = null",
+		"toolbar_no_tools": [
+			"mActionGTOversion"
+		],
+		"_toolbar_no_tools": "tools added to gto-toolbar when empty",
+		"toolbar_moveable": false,
+		"_toolbar_moveable": "true if GTO toolbar can be moved"
+	},
+	"GTO Tree": {
+		"tree_expand": true,
+		"_tree_expand": "if the gto tree should expand all",
+		"tree_single_click": true,
+		"_tree_single_click": "if a leave opens on single-click"
+	},
+	"QGIS": {
+		"qgis_stylefile": null,
+		"_qgis_stylefile": "loads a style sheet for QGIS from ./gto/styles/",
+		"qgis_icon": "gto.png",
+		"_qgis_icon": "Icon in the titlebar of QGIS from ./gto/icons/",
+		"qgis_title": "QGIS powered by ms.GIS",
+		"_qgis_title": "Changes the QGIS title"
+	},
+	"Remote": {
+		"remote_watch_file": null,
+		"remote_app_file": null,
+		"remote_file": null,
+		"remote_app_title": null
+	},
+	"GPS": {
+		"gps_port": null,
+		"gps_pdop": 1,
+		"gps_log": false,
+		"gps_timer_intervall": 5000,
+		"gps_streaming_distance": 10,
+		"gps_wgs_crs": "EPSG:4326",
+		"gps_center": true,
+		"gps_scale": 0,
+		"gps_stream_mode": 0,
+		"_gps_stream_mode": "0=rubber, 1=click, 2=both",
+		"gps_afterstream_tools": [
+			"mActionGTOgpsSave"
+		],
+		"gps_addpoint_attributes": {}
+	}
+}

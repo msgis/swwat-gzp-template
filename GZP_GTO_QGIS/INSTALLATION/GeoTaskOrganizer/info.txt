@@ -1,0 +1,8 @@
+Dockwidgets: objectname
+gtoMain:__init__: self.gtowids = [GTOCoordinatesDockWidget(self)]
+
+GTOCoordinatesDockWidget
+GTODockWidget (=GTO)
+
+Toolbars: objectname
+

@@ -1,800 +1,1619 @@
 {
-    "PLGBT": {
-        "INFO_TXT": [
-            "TEXT"
-        ],
-        "GGN_VERS": [
-            "TEXT"
-        ],
-        "KURZRID": [
-            "TEXT"
-        ],
-        "SHAPE": [
-            "MultiPolygon"
-        ],
-        "EDVKZ": [
-            "TEXT"
-        ],
-        "LANDRID": [
-            "TEXT"
-        ],
-        "AK_DATUM": [
-            "DATE"
-        ],
-        "ID": [
-            "INTEGER"
-        ]
-    },
-    "DOM_GEN_ORG": {
-        "SORT": [
-            "INTEGER"
-        ],
-        "ID": [
-            "INTEGER"
-        ],
-        "VALUE": [
-            "TEXT"
-        ]
-    },
-    "DOM_BOOL": {
-        "DISPLAY": [
-            "TEXT"
-        ],
-        "SORT": [
-            "INTEGER"
-        ],
-        "ID": [
-            "INTEGER"
-        ],
-        "VALUE": [
-            "INTEGER"
-        ]
-    },
-    "LPAKT": {
-        "L_KATEGO": [
-            "INTEGER"
-        ],
-        "INFO_TXT": [
-            "TEXT"
-        ],
-        "GGN_VERS": [
-            "TEXT"
-        ],
-        "KURZRID": [
-            "TEXT"
-        ],
-        "SHAPE": [
-            "LineString"
-        ],
-        "G_BIS_KM": [
-            "REAL"
-        ],
-        "EDVKZ": [
-            "TEXT"
-        ],
-        "G_VON_KM": [
-            "REAL"
-        ],
-        "LANDRID": [
-            "TEXT"
-        ],
-        "AK_DATUM": [
-            "DATE"
-        ],
-        "ID": [
-            "INTEGER"
-        ]
-    },
-    "TBPRJ": {
-        "INFO_TXT": [
-            "TEXT"
-        ],
-        "HW_OID": [
-            "INTEGER"
-        ],
-        "FIN_ART": [
-            "INTEGER"
-        ],
-        "LAND_ID": [
-            "TEXT"
-        ],
-        "PRJ_TYP": [
-            "INTEGER"
-        ],
-        "AK_DATUM": [
-            "DATE"
-        ],
-        "ID": [
-            "INTEGER"
-        ],
-        "EDVKZ": [
-            "TEXT"
-        ]
-    },
-    "DOM_UFHQN_L_KATEGO": {
-        "SORT": [
-            "INTEGER"
-        ],
-        "ID": [
-            "INTEGER"
-        ],
-        "VALUE": [
-            "TEXT"
-        ]
-    },
-    "GZ100": {
-        "L_KATEGO": [
-            "INTEGER"
-        ],
-        "INFO_TXT": [
-            "TEXT"
-        ],
-        "SZENARIO": [
-            "INTEGER"
-        ],
-        "SHAPE": [
-            "MultiPolygon"
-        ],
-        "EDVKZ": [
-            "TEXT"
-        ],
-        "AK_DATUM": [
-            "DATE"
-        ],
-        "ID": [
-            "INTEGER"
-        ]
-    },
-    "MODEL": {
-        "L_KATEGO": [
-            "INTEGER"
-        ],
-        "INFO_TXT": [
-            "TEXT"
-        ],
-        "SZENARIO": [
-            "INTEGER"
-        ],
-        "SHAPE": [
-            "MultiPolygon"
-        ],
-        "EDVKZ": [
-            "TEXT"
-        ],
-        "AK_DATUM": [
-            "DATE"
-        ],
-        "ID": [
-            "INTEGER"
-        ]
-    },
-    "TBGGN": {
-        "GGN_VERS": [
-            "TEXT"
-        ],
-        "HQ_30max": [
-            "REAL"
-        ],
-        "HYDROL_L": [
-            "INTEGER"
-        ],
-        "EDVKZ": [
-            "TEXT"
-        ],
-        "UBERLA_J": [
-            "INTEGER"
-        ],
-        "S_VERKLA": [
-            "INTEGER"
-        ],
-        "NA_MODEL": [
-            "INTEGER"
-        ],
-        "HQ100max": [
-            "REAL"
-        ],
-        "HQ300max": [
-            "REAL"
-        ],
-        "VERSAG_J": [
-            "INTEGER"
-        ],
-        "HYDRAU_S": [
-            "INTEGER"
-        ],
-        "AK_DATUM": [
-            "DATE"
-        ],
-        "VERKLA_J": [
-            "INTEGER"
-        ],
-        "S_UBERLA": [
-            "INTEGER"
-        ],
-        "S_FESTST": [
-            "INTEGER"
-        ],
-        "G_BEPLAN": [
-            "INTEGER"
-        ],
-        "G_BIS_KM": [
-            "REAL"
-        ],
-        "G_VON_KM": [
-            "REAL"
-        ],
-        "ID": [
-            "INTEGER"
-        ],
-        "INFO_TXT": [
-            "TEXT"
-        ],
-        "S_VERSAG": [
-            "INTEGER"
-        ],
-        "G_NEU_OK": [
-            "INTEGER"
-        ],
-        "FESTST_J": [
-            "INTEGER"
-        ],
-        "KURZRID": [
-            "TEXT"
-        ],
-        "LANDRID": [
-            "TEXT"
-        ],
-        "ABSID": [
-            "INTEGER"
-        ]
-    },
-    "TBGEN": {
-        "INFO_TXT": [
-            "TEXT"
-        ],
-        "ID": [
-            "INTEGER"
-        ],
-        "GEN_ZAHL": [
-            "TEXT"
-        ],
-        "GEN_DAT": [
-            "DATE"
-        ],
-        "EDVKZ": [
-            "TEXT"
-        ],
-        "GEN_ORG": [
-            "INTEGER"
-        ],
-        "GEN_ART": [
-            "INTEGER"
-        ],
-        "TEIL_GEN": [
-            "INTEGER"
-        ]
-    },
-    "DOM_LPAKT_L_KATEGO": {
-        "SORT": [
-            "INTEGER"
-        ],
-        "ID": [
-            "INTEGER"
-        ],
-        "VALUE": [
-            "TEXT"
-        ]
-    },
-    "DOM_BERECH_M": {
-        "SORT": [
-            "INTEGER"
-        ],
-        "ID": [
-            "INTEGER"
-        ],
-        "VALUE": [
-            "TEXT"
-        ]
-    },
-    "DOM_FIN_ART": {
-        "SORT": [
-            "INTEGER"
-        ],
-        "ID": [
-            "INTEGER"
-        ],
-        "VALUE": [
-            "TEXT"
-        ]
-    },
-    "DOM_M_HWENT": {
-        "SORT": [
-            "INTEGER"
-        ],
-        "ID": [
-            "INTEGER"
-        ],
-        "VALUE": [
-            "TEXT"
-        ]
-    },
-    "DOM_GEN_ART": {
-        "SORT": [
-            "INTEGER"
-        ],
-        "ID": [
-            "INTEGER"
-        ],
-        "VALUE": [
-            "TEXT"
-        ]
-    },
-    "DOM_QPLIN_L_KATEGO": {
-        "SORT": [
-            "INTEGER"
-        ],
-        "ID": [
-            "INTEGER"
-        ],
-        "VALUE": [
-            "TEXT"
-        ]
-    },
-    "BWERT": {
-        "INFO_TXT": [
-            "TEXT"
-        ],
-        "GGN_VERS": [
-            "TEXT"
-        ],
-        "PKT_ID": [
-            "TEXT"
-        ],
-        "SZENARIO": [
-            "INTEGER"
-        ],
-        "QMAX": [
-            "REAL"
-        ],
-        "QSPEZ": [
-            "REAL"
-        ],
-        "GFRACHT": [
-            "REAL"
-        ],
-        "G_BEI_KM": [
-            "REAL"
-        ],
-        "KURZRID": [
-            "TEXT"
-        ],
-        "SHAPE": [
-            "Point"
-        ],
-        "EDVKZ": [
-            "TEXT"
-        ],
-        "LANDRID": [
-            "TEXT"
-        ],
-        "AK_DATUM": [
-            "DATE"
-        ],
-        "ID": [
-            "INTEGER"
-        ]
-    },
-    "DOM_PRJ_TYP": {
-        "SORT": [
-            "INTEGER"
-        ],
-        "ID": [
-            "INTEGER"
-        ],
-        "VALUE": [
-            "TEXT"
-        ]
-    },
-    "GFPKT": {
-        "L_KATEGO": [
-            "INTEGER"
-        ],
-        "INFO_TXT": [
-            "TEXT"
-        ],
-        "SZENARIO": [
-            "INTEGER"
-        ],
-        "SHAPE": [
-            "Point"
-        ],
-        "EDVKZ": [
-            "TEXT"
-        ],
-        "AK_DATUM": [
-            "DATE"
-        ],
-        "ID": [
-            "INTEGER"
-        ]
-    },
-    "DOM_G_BEPLAN": {
-        "SORT": [
-            "INTEGER"
-        ],
-        "ID": [
-            "INTEGER"
-        ],
-        "VALUE": [
-            "TEXT"
-        ]
-    },
-    "GFLIN": {
-        "L_KATEGO": [
-            "INTEGER"
-        ],
-        "INFO_TXT": [
-            "TEXT"
-        ],
-        "SZENARIO": [
-            "INTEGER"
-        ],
-        "SHAPE": [
-            "LineString"
-        ],
-        "EDVKZ": [
-            "TEXT"
-        ],
-        "AK_DATUM": [
-            "DATE"
-        ],
-        "ID": [
-            "INTEGER"
-        ]
-    },
-    "DOM_GF_L_KATEGO": {
-        "SORT": [
-            "INTEGER"
-        ],
-        "ID": [
-            "INTEGER"
-        ],
-        "VALUE": [
-            "TEXT"
-        ]
-    },
-    "TBGZP": {
-        "EDVKZ": [
-            "TEXT"
-        ],
-        "INFO_TXT": [
-            "TEXT"
-        ],
-        "U_FGWTFL": [
-            "INTEGER"
-        ],
-        "M_STURZF": [
-            "INTEGER"
-        ],
-        "WILDHOLZ": [
-            "INTEGER"
-        ],
-        "M_SCHNEE": [
-            "INTEGER"
-        ],
-        "A_DIG_DAT": [
-            "DATE"
-        ],
-        "A_PLANER": [
-            "TEXT"
-        ],
-        "U_PLUVIA": [
-            "INTEGER"
-        ],
-        "SOFTW_M": [
-            "TEXT"
-        ],
-        "U_WBINFR": [
-            "INTEGER"
-        ],
-        "A_BEGINN": [
-            "DATE"
-        ],
-        "U_GRUNDW": [
-            "INTEGER"
-        ],
-        "A_AGORG": [
-            "TEXT"
-        ],
-        "M_HWENT": [
-            "INTEGER"
-        ],
-        "A_ENDE": [
-            "DATE"
-        ],
-        "DIMENS_M": [
-            "INTEGER"
-        ],
-        "A_LAENGE": [
-            "REAL"
-        ],
-        "ID": [
-            "INTEGER"
-        ],
-        "AK_DATUM": [
-            "DATE"
-        ],
-        "BERECH_M": [
-            "INTEGER"
-        ]
-    },
-    "GZ300": {
-        "L_KATEGO": [
-            "INTEGER"
-        ],
-        "INFO_TXT": [
-            "TEXT"
-        ],
-        "SZENARIO": [
-            "INTEGER"
-        ],
-        "SHAPE": [
-            "MultiPolygon"
-        ],
-        "EDVKZ": [
-            "TEXT"
-        ],
-        "AK_DATUM": [
-            "DATE"
-        ],
-        "ID": [
-            "INTEGER"
-        ]
-    },
-    "GFFLA": {
-        "L_KATEGO": [
-            "INTEGER"
-        ],
-        "INFO_TXT": [
-            "TEXT"
-        ],
-        "SZENARIO": [
-            "INTEGER"
-        ],
-        "SHAPE": [
-            "MultiPolygon"
-        ],
-        "EDVKZ": [
-            "TEXT"
-        ],
-        "AK_DATUM": [
-            "DATE"
-        ],
-        "ID": [
-            "INTEGER"
-        ]
-    },
-    "DOM_MODEL_L_KATEGO": {
-        "SORT": [
-            "INTEGER"
-        ],
-        "ID": [
-            "INTEGER"
-        ],
-        "VALUE": [
-            "TEXT"
-        ]
-    },
-    "KNTPKT": {
-        "KNT_ID": [
-            "INTEGER"
-        ],
-        "SZENARIO": [
-            "INTEGER"
-        ],
-        "TAU_MAX": [
-            "REAL"
-        ],
-        "KN_FLAECH": [
-            "REAL"
-        ],
-        "KN_Z": [
-            "REAL"
-        ],
-        "FG_MAX": [
-            "REAL"
-        ],
-        "QS_MAX": [
-            "REAL"
-        ],
-        "DAUER": [
-            "INTEGER"
-        ],
-        "QF_SUM": [
-            "REAL"
-        ],
-        "WT_MAX": [
-            "REAL"
-        ],
-        "SHAPE": [
-            "Point"
-        ],
-        "EDVKZ": [
-            "TEXT"
-        ],
-        "RICHTUNG": [
-            "INTEGER"
-        ],
-        "ID": [
-            "INTEGER"
-        ]
-    },
-    "DOM_GZ100_L_KATEGO": {
-        "SORT": [
-            "INTEGER"
-        ],
-        "ID": [
-            "INTEGER"
-        ],
-        "VALUE": [
-            "TEXT"
-        ]
-    },
-    "FUNKT": {
-        "L_KATEGO": [
-            "INTEGER"
-        ],
-        "INFO_TXT": [
-            "TEXT"
-        ],
-        "SZENARIO": [
-            "INTEGER"
-        ],
-        "SHAPE": [
-            "MultiPolygon"
-        ],
-        "EDVKZ": [
-            "TEXT"
-        ],
-        "AK_DATUM": [
-            "DATE"
-        ],
-        "ID": [
-            "INTEGER"
-        ]
-    },
-    "DOM_FUNKT_L_KATEGO": {
-        "SORT": [
-            "INTEGER"
-        ],
-        "ID": [
-            "INTEGER"
-        ],
-        "VALUE": [
-            "TEXT"
-        ]
-    },
-    "UFHQN": {
-        "L_KATEGO": [
-            "INTEGER"
-        ],
-        "INFO_TXT": [
-            "TEXT"
-        ],
-        "GGN_VERS": [
-            "TEXT"
-        ],
-        "SZENARIO": [
-            "INTEGER"
-        ],
-        "KURZRID": [
-            "TEXT"
-        ],
-        "SHAPE": [
-            "MultiPolygon"
-        ],
-        "EDVKZ": [
-            "TEXT"
-        ],
-        "LANDRID": [
-            "TEXT"
-        ],
-        "AK_DATUM": [
-            "DATE"
-        ],
-        "ID": [
-            "INTEGER"
-        ]
-    },
-    "DOM_G_SCHUTZ": {
-        "SORT": [
-            "INTEGER"
-        ],
-        "ID": [
-            "INTEGER"
-        ],
-        "VALUE": [
-            "TEXT"
-        ]
-    },
-    "GSCHUTZ": {
-        "L_KATEGO": [
-            "INTEGER"
-        ],
-        "INFO_TXT": [
-            "TEXT"
-        ],
-        "GGN_VERS": [
-            "TEXT"
-        ],
-        "KURZRID": [
-            "TEXT"
-        ],
-        "SHAPE": [
-            "LineString"
-        ],
-        "G_BIS_KM": [
-            "REAL"
-        ],
-        "EDVKZ": [
-            "TEXT"
-        ],
-        "G_VON_KM": [
-            "REAL"
-        ],
-        "LANDRID": [
-            "TEXT"
-        ],
-        "AK_DATUM": [
-            "DATE"
-        ],
-        "ID": [
-            "INTEGER"
-        ]
-    },
-    "QPLIN": {
-        "L_KATEGO": [
-            "INTEGER"
-        ],
-        "INFO_TXT": [
-            "TEXT"
-        ],
-        "SZENARIO": [
-            "INTEGER"
-        ],
-        "SHAPE": [
-            "LineString"
-        ],
-        "EDVKZ": [
-            "TEXT"
-        ],
-        "AK_DATUM": [
-            "DATE"
-        ],
-        "ID": [
-            "INTEGER"
-        ]
-    },
-    "DOM_GZ300_L_KATEGO": {
-        "SORT": [
-            "INTEGER"
-        ],
-        "ID": [
-            "INTEGER"
-        ],
-        "VALUE": [
-            "TEXT"
-        ]
-    },
-    "DOM_DIMENS_M": {
-        "SORT": [
-            "INTEGER"
-        ],
-        "ID": [
-            "INTEGER"
-        ],
-        "VALUE": [
-            "TEXT"
-        ]
-    }
+  "DOM_PRJ_TYP": {
+    "ID": [
+      "INTEGER",
+      1,
+      null
+    ],
+    "VALUE": [
+      "TEXT",
+      0,
+      null
+    ],
+    "SORT": [
+      "INTEGER",
+      0,
+      null
+    ]
+  },
+  "DOM_FIN_ART": {
+    "ID": [
+      "INTEGER",
+      1,
+      null
+    ],
+    "VALUE": [
+      "TEXT",
+      0,
+      null
+    ],
+    "SORT": [
+      "INTEGER",
+      0,
+      null
+    ]
+  },
+  "DOM_BERECH_M": {
+    "ID": [
+      "INTEGER",
+      1,
+      null
+    ],
+    "VALUE": [
+      "TEXT",
+      0,
+      null
+    ],
+    "SORT": [
+      "INTEGER",
+      0,
+      null
+    ]
+  },
+  "DOM_DIMENS_M": {
+    "ID": [
+      "INTEGER",
+      1,
+      null
+    ],
+    "VALUE": [
+      "TEXT",
+      0,
+      null
+    ],
+    "SORT": [
+      "INTEGER",
+      0,
+      null
+    ]
+  },
+  "DOM_M_HWENT": {
+    "ID": [
+      "INTEGER",
+      1,
+      null
+    ],
+    "VALUE": [
+      "TEXT",
+      0,
+      null
+    ],
+    "SORT": [
+      "INTEGER",
+      0,
+      null
+    ]
+  },
+  "DOM_G_SCHUTZ": {
+    "ID": [
+      "INTEGER",
+      1,
+      null
+    ],
+    "VALUE": [
+      "TEXT",
+      0,
+      null
+    ],
+    "SORT": [
+      "INTEGER",
+      0,
+      null
+    ]
+  },
+  "DOM_G_LAGE": {
+    "ID": [
+      "INTEGER",
+      1,
+      null
+    ],
+    "VALUE": [
+      "TEXT",
+      0,
+      null
+    ],
+    "SORT": [
+      "INTEGER",
+      0,
+      null
+    ]
+  },
+  "DOM_GEN_ORG": {
+    "ID": [
+      "INTEGER",
+      1,
+      null
+    ],
+    "VALUE": [
+      "TEXT",
+      0,
+      null
+    ],
+    "SORT": [
+      "INTEGER",
+      0,
+      null
+    ]
+  },
+  "DOM_GEN_ART": {
+    "ID": [
+      "INTEGER",
+      1,
+      null
+    ],
+    "VALUE": [
+      "TEXT",
+      0,
+      null
+    ],
+    "SORT": [
+      "INTEGER",
+      0,
+      null
+    ]
+  },
+  "DOM_UFHQN_L_KATEGO": {
+    "ID": [
+      "INTEGER",
+      1,
+      null
+    ],
+    "VALUE": [
+      "TEXT",
+      0,
+      null
+    ],
+    "SORT": [
+      "INTEGER",
+      0,
+      null
+    ]
+  },
+  "DOM_GZ100_L_KATEGO": {
+    "ID": [
+      "INTEGER",
+      1,
+      null
+    ],
+    "VALUE": [
+      "TEXT",
+      0,
+      null
+    ],
+    "SORT": [
+      "INTEGER",
+      0,
+      null
+    ]
+  },
+  "DOM_GZ300_L_KATEGO": {
+    "ID": [
+      "INTEGER",
+      1,
+      null
+    ],
+    "VALUE": [
+      "TEXT",
+      0,
+      null
+    ],
+    "SORT": [
+      "INTEGER",
+      0,
+      null
+    ]
+  },
+  "DOM_FUNKT_L_KATEGO": {
+    "ID": [
+      "INTEGER",
+      1,
+      null
+    ],
+    "VALUE": [
+      "TEXT",
+      0,
+      null
+    ],
+    "SORT": [
+      "INTEGER",
+      0,
+      null
+    ]
+  },
+  "DOM_LPAKT_L_KATEGO": {
+    "ID": [
+      "INTEGER",
+      1,
+      null
+    ],
+    "VALUE": [
+      "TEXT",
+      0,
+      null
+    ],
+    "SORT": [
+      "INTEGER",
+      0,
+      null
+    ]
+  },
+  "DOM_GF_L_KATEGO": {
+    "ID": [
+      "INTEGER",
+      1,
+      null
+    ],
+    "VALUE": [
+      "TEXT",
+      0,
+      null
+    ],
+    "SORT": [
+      "INTEGER",
+      0,
+      null
+    ]
+  },
+  "DOM_GF_GRAD": {
+    "ID": [
+      "INTEGER",
+      1,
+      null
+    ],
+    "VALUE": [
+      "TEXT",
+      0,
+      null
+    ],
+    "SORT": [
+      "INTEGER",
+      0,
+      null
+    ]
+  },
+  "DOM_MODEL_L_KATEGO": {
+    "ID": [
+      "INTEGER",
+      1,
+      null
+    ],
+    "VALUE": [
+      "TEXT",
+      0,
+      null
+    ],
+    "SORT": [
+      "INTEGER",
+      0,
+      null
+    ]
+  },
+  "DOM_QPLIN_L_KATEGO": {
+    "ID": [
+      "INTEGER",
+      1,
+      null
+    ],
+    "VALUE": [
+      "TEXT",
+      0,
+      null
+    ],
+    "SORT": [
+      "INTEGER",
+      0,
+      null
+    ]
+  },
+  "DOM_BOOL": {
+    "ID": [
+      "INTEGER",
+      1,
+      null
+    ],
+    "VALUE": [
+      "INTEGER",
+      0,
+      null
+    ],
+    "DISPLAY": [
+      "TEXT",
+      0,
+      null
+    ],
+    "SORT": [
+      "INTEGER",
+      0,
+      null
+    ]
+  },
+  "DOM_G_PLBAU": {
+    "ID": [
+      "INTEGER",
+      1,
+      null
+    ],
+    "VALUE": [
+      "TEXT",
+      0,
+      null
+    ],
+    "SORT": [
+      "INTEGER",
+      0,
+      null
+    ]
+  },
+  "DOM_O_PRIOR": {
+    "ID": [
+      "INTEGER",
+      1,
+      null
+    ],
+    "VALUE": [
+      "TEXT",
+      0,
+      null
+    ],
+    "SORT": [
+      "INTEGER",
+      0,
+      null
+    ]
+  },
+  "DOM_OB_L_KATEGO": {
+    "ID": [
+      "INTEGER",
+      1,
+      null
+    ],
+    "VALUE": [
+      "TEXT",
+      0,
+      null
+    ],
+    "SORT": [
+      "INTEGER",
+      0,
+      null
+    ]
+  },
+  "DOM_FLUSS_L_KATEGO": {
+    "ID": [
+      "INTEGER",
+      1,
+      null
+    ],
+    "VALUE": [
+      "TEXT",
+      0,
+      null
+    ],
+    "SORT": [
+      "INTEGER",
+      0,
+      null
+    ]
+  },
+  "TBPRJ": {
+    "ID": [
+      "INTEGER",
+      1,
+      null
+    ],
+    "EDVKZ": [
+      "TEXT",
+      0,
+      null
+    ],
+    "LAND_ID": [
+      "TEXT",
+      0,
+      null
+    ],
+    "HW_OID": [
+      "INTEGER",
+      0,
+      null
+    ],
+    "AK_DATUM": [
+      "DATE",
+      0,
+      null
+    ],
+    "PRJ_TYP": [
+      "INTEGER",
+      0,
+      null
+    ],
+    "FIN_ART": [
+      "INTEGER",
+      0,
+      null
+    ],
+    "A_AGORG": [
+      "TEXT",
+      0,
+      null
+    ],
+    "A_PLANER": [
+      "TEXT",
+      0,
+      null
+    ],
+    "A_LAENGE": [
+      "REAL",
+      0,
+      null
+    ],
+    "A_BEGINN": [
+      "DATE",
+      0,
+      null
+    ],
+    "A_ENDE": [
+      "DATE",
+      0,
+      null
+    ],
+    "A_DIG_DAT": [
+      "DATE",
+      0,
+      null
+    ],
+    "INFO_TXT": [
+      "TEXT",
+      0,
+      null
+    ]
+  },
+  "PLGBT": {
+    "ID": [
+      "INTEGER",
+      1,
+      null
+    ],
+    "EDVKZ": [
+      "TEXT",
+      0,
+      null
+    ],
+    "KURZRID": [
+      "TEXT",
+      0,
+      null
+    ],
+    "LANDRID": [
+      "TEXT",
+      0,
+      null
+    ],
+    "GGN_VERS": [
+      "TEXT",
+      0,
+      null
+    ],
+    "AK_DATUM": [
+      "DATE",
+      0,
+      null
+    ],
+    "INFO_TXT": [
+      "TEXT",
+      0,
+      null
+    ],
+    "SHAPE": [
+      "MultiPolygon",
+      0,
+      null
+    ]
+  },
+  "TBGZP": {
+    "ID": [
+      "INTEGER",
+      1,
+      null
+    ],
+    "EDVKZ": [
+      "TEXT",
+      0,
+      null
+    ],
+    "AK_DATUM": [
+      "DATE",
+      0,
+      null
+    ],
+    "BERECH_M": [
+      "INTEGER",
+      0,
+      null
+    ],
+    "DIMENS_M": [
+      "INTEGER",
+      0,
+      null
+    ],
+    "SOFTW_M": [
+      "TEXT",
+      0,
+      null
+    ],
+    "U_FGWTFL": [
+      "INTEGER",
+      0,
+      null
+    ],
+    "U_PLUVIA": [
+      "INTEGER",
+      0,
+      null
+    ],
+    "U_GRUNDW": [
+      "INTEGER",
+      0,
+      null
+    ],
+    "U_WBINFR": [
+      "INTEGER",
+      0,
+      null
+    ],
+    "M_SCHNEE": [
+      "INTEGER",
+      0,
+      null
+    ],
+    "M_STURZF": [
+      "INTEGER",
+      0,
+      null
+    ],
+    "M_HWENT": [
+      "INTEGER",
+      0,
+      null
+    ],
+    "WILDHOLZ": [
+      "INTEGER",
+      0,
+      null
+    ],
+    "INFO_TXT": [
+      "TEXT",
+      0,
+      null
+    ]
+  },
+  "TBGGN": {
+    "ID": [
+      "INTEGER",
+      1,
+      null
+    ],
+    "EDVKZ": [
+      "TEXT",
+      0,
+      null
+    ],
+    "KURZRID": [
+      "TEXT",
+      0,
+      null
+    ],
+    "LANDRID": [
+      "TEXT",
+      0,
+      null
+    ],
+    "GGN_VERS": [
+      "TEXT",
+      0,
+      null
+    ],
+    "AK_DATUM": [
+      "DATE",
+      0,
+      null
+    ],
+    "G_NEU_OK": [
+      "INTEGER",
+      0,
+      null
+    ],
+    "G_BEI_KM": [
+      "REAL",
+      0,
+      null
+    ],
+    "HQ_30max": [
+      "REAL",
+      0,
+      null
+    ],
+    "HQ100max": [
+      "REAL",
+      0,
+      null
+    ],
+    "HQ300max": [
+      "REAL",
+      0,
+      null
+    ],
+    "NA_MODEL": [
+      "INTEGER",
+      0,
+      null
+    ],
+    "HYDROL_L": [
+      "INTEGER",
+      0,
+      null
+    ],
+    "HYDRAU_S": [
+      "INTEGER",
+      0,
+      null
+    ],
+    "S_FESTST": [
+      "INTEGER",
+      0,
+      null
+    ],
+    "FESTST_J": [
+      "INTEGER",
+      0,
+      null
+    ],
+    "S_VERSAG": [
+      "INTEGER",
+      0,
+      null
+    ],
+    "VERSAG_J": [
+      "INTEGER",
+      0,
+      null
+    ],
+    "S_UBERLA": [
+      "INTEGER",
+      0,
+      null
+    ],
+    "UBERLA_J": [
+      "INTEGER",
+      0,
+      null
+    ],
+    "S_VERKLA": [
+      "INTEGER",
+      0,
+      null
+    ],
+    "VERKLA_J": [
+      "INTEGER",
+      0,
+      null
+    ],
+    "INFO_TXT": [
+      "TEXT",
+      0,
+      null
+    ]
+  },
+  "GPLBAU": {
+    "ID": [
+      "INTEGER",
+      1,
+      null
+    ],
+    "EDVKZ": [
+      "TEXT",
+      0,
+      null
+    ],
+    "KURZRID": [
+      "TEXT",
+      0,
+      null
+    ],
+    "LANDRID": [
+      "TEXT",
+      0,
+      null
+    ],
+    "GGN_VERS": [
+      "TEXT",
+      0,
+      null
+    ],
+    "G_VON_KM": [
+      "REAL",
+      0,
+      null
+    ],
+    "G_BIS_KM": [
+      "REAL",
+      0,
+      null
+    ],
+    "AK_DATUM": [
+      "DATE",
+      0,
+      null
+    ],
+    "L_KATEGO": [
+      "INTEGER",
+      0,
+      null
+    ],
+    "INFO_TXT": [
+      "TEXT",
+      0,
+      null
+    ],
+    "SHAPE": [
+      "LineString",
+      0,
+      null
+    ]
+  },
+  "TBGEN": {
+    "ID": [
+      "INTEGER",
+      1,
+      null
+    ],
+    "GEN_ZAHL": [
+      "TEXT",
+      0,
+      null
+    ],
+    "EDVKZ": [
+      "TEXT",
+      0,
+      null
+    ],
+    "GEN_DAT": [
+      "DATE",
+      0,
+      null
+    ],
+    "GEN_ORG": [
+      "INTEGER",
+      0,
+      null
+    ],
+    "GEN_ART": [
+      "INTEGER",
+      0,
+      null
+    ],
+    "TEIL_GEN": [
+      "INTEGER",
+      0,
+      null
+    ],
+    "INFO_TXT": [
+      "TEXT",
+      0,
+      null
+    ]
+  },
+  "UFHQN": {
+    "ID": [
+      "INTEGER",
+      1,
+      null
+    ],
+    "EDVKZ": [
+      "TEXT",
+      0,
+      null
+    ],
+    "KURZRID": [
+      "TEXT",
+      0,
+      null
+    ],
+    "LANDRID": [
+      "TEXT",
+      0,
+      null
+    ],
+    "GGN_VERS": [
+      "TEXT",
+      0,
+      null
+    ],
+    "AK_DATUM": [
+      "DATE",
+      0,
+      null
+    ],
+    "L_KATEGO": [
+      "INTEGER",
+      0,
+      null
+    ],
+    "SZENARIO": [
+      "INTEGER",
+      0,
+      null
+    ],
+    "INFO_TXT": [
+      "TEXT",
+      0,
+      null
+    ],
+    "SHAPE": [
+      "MultiPolygon",
+      0,
+      null
+    ]
+  },
+  "BWERT": {
+    "ID": [
+      "INTEGER",
+      1,
+      null
+    ],
+    "PKT_ID": [
+      "TEXT",
+      0,
+      null
+    ],
+    "EDVKZ": [
+      "TEXT",
+      0,
+      null
+    ],
+    "KURZRID": [
+      "TEXT",
+      0,
+      null
+    ],
+    "LANDRID": [
+      "TEXT",
+      0,
+      null
+    ],
+    "GGN_VERS": [
+      "TEXT",
+      0,
+      null
+    ],
+    "G_BEI_KM": [
+      "REAL",
+      0,
+      null
+    ],
+    "AK_DATUM": [
+      "DATE",
+      0,
+      null
+    ],
+    "QMAX": [
+      "REAL",
+      0,
+      null
+    ],
+    "QSPEZ": [
+      "REAL",
+      0,
+      null
+    ],
+    "GFRACHT": [
+      "REAL",
+      0,
+      null
+    ],
+    "SZENARIO": [
+      "INTEGER",
+      0,
+      null
+    ],
+    "INFO_TXT": [
+      "TEXT",
+      0,
+      null
+    ],
+    "SHAPE": [
+      "Point",
+      0,
+      null
+    ]
+  },
+  "KNTPKT": {
+    "ID": [
+      "INTEGER",
+      1,
+      null
+    ],
+    "EDVKZ": [
+      "TEXT",
+      0,
+      null
+    ],
+    "SZENARIO": [
+      "INTEGER",
+      0,
+      null
+    ],
+    "KNT_ID": [
+      "TEXT",
+      0,
+      null
+    ],
+    "KN_Z": [
+      "REAL",
+      0,
+      null
+    ],
+    "KN_FLAECH": [
+      "REAL",
+      0,
+      null
+    ],
+    "WT_MAX": [
+      "REAL",
+      0,
+      null
+    ],
+    "FG_MAX": [
+      "REAL",
+      0,
+      null
+    ],
+    "TAU_MAX": [
+      "REAL",
+      0,
+      null
+    ],
+    "RICHTUNG": [
+      "INTEGER",
+      0,
+      null
+    ],
+    "DAUER": [
+      "INTEGER",
+      0,
+      null
+    ],
+    "QS_MAX": [
+      "REAL",
+      0,
+      null
+    ],
+    "QF_SUM": [
+      "REAL",
+      0,
+      null
+    ],
+    "SHAPE": [
+      "Point",
+      0,
+      null
+    ]
+  },
+  "GZ100": {
+    "ID": [
+      "INTEGER",
+      1,
+      null
+    ],
+    "EDVKZ": [
+      "TEXT",
+      0,
+      null
+    ],
+    "KURZRID": [
+      "TEXT",
+      0,
+      null
+    ],
+    "LANDRID": [
+      "TEXT",
+      0,
+      null
+    ],
+    "GGN_VERS": [
+      "TEXT",
+      0,
+      null
+    ],
+    "AK_DATUM": [
+      "DATE",
+      0,
+      null
+    ],
+    "L_KATEGO": [
+      "INTEGER",
+      0,
+      null
+    ],
+    "SZENARIO": [
+      "INTEGER",
+      0,
+      null
+    ],
+    "INFO_TXT": [
+      "TEXT",
+      0,
+      null
+    ],
+    "SHAPE": [
+      "MultiPolygon",
+      0,
+      null
+    ]
+  },
+  "GZ300": {
+    "ID": [
+      "INTEGER",
+      1,
+      null
+    ],
+    "EDVKZ": [
+      "TEXT",
+      0,
+      null
+    ],
+    "KURZRID": [
+      "TEXT",
+      0,
+      null
+    ],
+    "LANDRID": [
+      "TEXT",
+      0,
+      null
+    ],
+    "GGN_VERS": [
+      "TEXT",
+      0,
+      null
+    ],
+    "AK_DATUM": [
+      "DATE",
+      0,
+      null
+    ],
+    "L_KATEGO": [
+      "INTEGER",
+      0,
+      null
+    ],
+    "SZENARIO": [
+      "INTEGER",
+      0,
+      null
+    ],
+    "INFO_TXT": [
+      "TEXT",
+      0,
+      null
+    ],
+    "SHAPE": [
+      "MultiPolygon",
+      0,
+      null
+    ]
+  },
+  "FUNKT": {
+    "ID": [
+      "INTEGER",
+      1,
+      null
+    ],
+    "EDVKZ": [
+      "TEXT",
+      0,
+      null
+    ],
+    "KURZRID": [
+      "TEXT",
+      0,
+      null
+    ],
+    "LANDRID": [
+      "TEXT",
+      0,
+      null
+    ],
+    "GGN_VERS": [
+      "TEXT",
+      0,
+      null
+    ],
+    "AK_DATUM": [
+      "DATE",
+      0,
+      null
+    ],
+    "L_KATEGO": [
+      "INTEGER",
+      0,
+      null
+    ],
+    "SZENARIO": [
+      "INTEGER",
+      0,
+      null
+    ],
+    "INFO_TXT": [
+      "TEXT",
+      0,
+      null
+    ],
+    "SHAPE": [
+      "MultiPolygon",
+      0,
+      null
+    ]
+  },
+  "LPAKT": {
+    "ID": [
+      "INTEGER",
+      1,
+      null
+    ],
+    "EDVKZ": [
+      "TEXT",
+      0,
+      null
+    ],
+    "KURZRID": [
+      "TEXT",
+      0,
+      null
+    ],
+    "LANDRID": [
+      "TEXT",
+      0,
+      null
+    ],
+    "GGN_VERS": [
+      "TEXT",
+      0,
+      null
+    ],
+    "G_VON_KM": [
+      "REAL",
+      0,
+      null
+    ],
+    "G_BIS_KM": [
+      "REAL",
+      0,
+      null
+    ],
+    "AK_DATUM": [
+      "DATE",
+      0,
+      null
+    ],
+    "L_KATEGO": [
+      "INTEGER",
+      0,
+      null
+    ],
+    "INFO_TXT": [
+      "TEXT",
+      0,
+      null
+    ],
+    "SHAPE": [
+      "LineString",
+      0,
+      null
+    ]
+  },
+  "GSCHUTZ": {
+    "ID": [
+      "INTEGER",
+      1,
+      null
+    ],
+    "EDVKZ": [
+      "TEXT",
+      0,
+      null
+    ],
+    "KURZRID": [
+      "TEXT",
+      0,
+      null
+    ],
+    "LANDRID": [
+      "TEXT",
+      0,
+      null
+    ],
+    "GGN_VERS": [
+      "TEXT",
+      0,
+      null
+    ],
+    "G_VON_KM": [
+      "REAL",
+      0,
+      null
+    ],
+    "G_BIS_KM": [
+      "REAL",
+      0,
+      null
+    ],
+    "AK_DATUM": [
+      "DATE",
+      0,
+      null
+    ],
+    "L_KATEGO": [
+      "INTEGER",
+      0,
+      null
+    ],
+    "G_LAGE": [
+      "INTEGER",
+      0,
+      null
+    ],
+    "INFO_TXT": [
+      "TEXT",
+      0,
+      null
+    ],
+    "SHAPE": [
+      "LineString",
+      0,
+      null
+    ]
+  },
+  "GFPKT": {
+    "ID": [
+      "INTEGER",
+      1,
+      null
+    ],
+    "EDVKZ": [
+      "TEXT",
+      0,
+      null
+    ],
+    "AK_DATUM": [
+      "DATE",
+      0,
+      null
+    ],
+    "L_KATEGO": [
+      "INTEGER",
+      0,
+      null
+    ],
+    "GF_GRAD": [
+      "INTEGER",
+      0,
+      null
+    ],
+    "INFO_TXT": [
+      "TEXT",
+      0,
+      null
+    ],
+    "SHAPE": [
+      "Point",
+      0,
+      null
+    ]
+  },
+  "GFLIN": {
+    "ID": [
+      "INTEGER",
+      1,
+      null
+    ],
+    "EDVKZ": [
+      "TEXT",
+      0,
+      null
+    ],
+    "AK_DATUM": [
+      "DATE",
+      0,
+      null
+    ],
+    "L_KATEGO": [
+      "INTEGER",
+      0,
+      null
+    ],
+    "GF_GRAD": [
+      "INTEGER",
+      0,
+      null
+    ],
+    "INFO_TXT": [
+      "TEXT",
+      0,
+      null
+    ],
+    "SHAPE": [
+      "LineString",
+      0,
+      null
+    ]
+  },
+  "GFFLA": {
+    "ID": [
+      "INTEGER",
+      1,
+      null
+    ],
+    "EDVKZ": [
+      "TEXT",
+      0,
+      null
+    ],
+    "AK_DATUM": [
+      "DATE",
+      0,
+      null
+    ],
+    "L_KATEGO": [
+      "INTEGER",
+      0,
+      null
+    ],
+    "GF_GRAD": [
+      "INTEGER",
+      0,
+      null
+    ],
+    "INFO_TXT": [
+      "TEXT",
+      0,
+      null
+    ],
+    "SHAPE": [
+      "MultiPolygon",
+      0,
+      null
+    ]
+  },
+  "MODEL": {
+    "ID": [
+      "INTEGER",
+      1,
+      null
+    ],
+    "EDVKZ": [
+      "TEXT",
+      0,
+      null
+    ],
+    "AK_DATUM": [
+      "DATE",
+      0,
+      null
+    ],
+    "L_KATEGO": [
+      "INTEGER",
+      0,
+      null
+    ],
+    "SZENARIO": [
+      "INTEGER",
+      0,
+      null
+    ],
+    "INFO_TXT": [
+      "TEXT",
+      0,
+      null
+    ],
+    "SHAPE": [
+      "MultiPolygon",
+      0,
+      null
+    ]
+  },
+  "QPLIN": {
+    "ID": [
+      "INTEGER",
+      1,
+      null
+    ],
+    "EDVKZ": [
+      "TEXT",
+      0,
+      null
+    ],
+    "AK_DATUM": [
+      "DATE",
+      0,
+      null
+    ],
+    "L_KATEGO": [
+      "INTEGER",
+      0,
+      null
+    ],
+    "SZENARIO": [
+      "INTEGER",
+      0,
+      null
+    ],
+    "INFO_TXT": [
+      "TEXT",
+      0,
+      null
+    ],
+    "SHAPE": [
+      "LineString",
+      0,
+      null
+    ]
+  },
+  "OBPKT": {
+    "ID": [
+      "INTEGER",
+      1,
+      null
+    ],
+    "EDVKZ": [
+      "TEXT",
+      0,
+      null
+    ],
+    "AK_DATUM": [
+      "DATE",
+      0,
+      null
+    ],
+    "L_KATEGO": [
+      "INTEGER",
+      0,
+      null
+    ],
+    "O_PRIOR": [
+      "INTEGER",
+      0,
+      null
+    ],
+    "SZENARIO": [
+      "INTEGER",
+      0,
+      null
+    ],
+    "INFO_TXT": [
+      "TEXT",
+      0,
+      null
+    ],
+    "SHAPE": [
+      "Point",
+      0,
+      null
+    ]
+  },
+  "OBLIN": {
+    "ID": [
+      "INTEGER",
+      1,
+      null
+    ],
+    "EDVKZ": [
+      "TEXT",
+      0,
+      null
+    ],
+    "AK_DATUM": [
+      "DATE",
+      0,
+      null
+    ],
+    "L_KATEGO": [
+      "INTEGER",
+      0,
+      null
+    ],
+    "O_PRIOR": [
+      "INTEGER",
+      0,
+      null
+    ],
+    "SZENARIO": [
+      "INTEGER",
+      0,
+      null
+    ],
+    "INFO_TXT": [
+      "TEXT",
+      0,
+      null
+    ],
+    "SHAPE": [
+      "LineString",
+      0,
+      null
+    ]
+  },
+  "OBFLA": {
+    "ID": [
+      "INTEGER",
+      1,
+      null
+    ],
+    "EDVKZ": [
+      "TEXT",
+      0,
+      null
+    ],
+    "AK_DATUM": [
+      "DATE",
+      0,
+      null
+    ],
+    "L_KATEGO": [
+      "INTEGER",
+      0,
+      null
+    ],
+    "O_PRIOR": [
+      "INTEGER",
+      0,
+      null
+    ],
+    "SZENARIO": [
+      "INTEGER",
+      0,
+      null
+    ],
+    "INFO_TXT": [
+      "TEXT",
+      0,
+      null
+    ],
+    "SHAPE": [
+      "MultiPolygon",
+      0,
+      null
+    ]
+  },
+  "FLUSS": {
+    "ID": [
+      "INTEGER",
+      1,
+      null
+    ],
+    "EDVKZ": [
+      "TEXT",
+      0,
+      null
+    ],
+    "AK_DATUM": [
+      "DATE",
+      0,
+      null
+    ],
+    "L_KATEGO": [
+      "INTEGER",
+      0,
+      null
+    ],
+    "INFO_TXT": [
+      "TEXT",
+      0,
+      null
+    ],
+    "SHAPE": [
+      "MultiPolygon",
+      0,
+      null
+    ]
+  }
 }

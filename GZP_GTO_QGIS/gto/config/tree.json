@@ -15,32 +15,40 @@
                      "on_enter": [],
                      "on_exit": [],
                      "icon": "",
-                     "helptext": "Dieses Tool prüft, ob das Schema aller Datensätze dem Datenmodell entspricht.\nBei Fehlermeldung bitte gemäß der Digitalen Datenanforderungen korrigieren.",
+                     "helptext": "Schema aller Datensaetze korrekt.htm",
                      "children": [],
                      "tools": ["mActionGTOmacro5"]
                          }
                          ],
              "tools": []
           },{
-                "caption": "Schritt 2 - Prüfung Felder",
+                "caption": "Schritt 2 - Prüfung Vollständigkeit",
                 "on_enter": [],
                 "on_exit": [],
                 "icon": "",
                 "helptext": "logo_GTO.png",
                 "children": [{
+    						"caption": "Pflichtlayer befüllt?",
+    						"on_enter": ["mActionDeselectAll", "mActionGTOmas2"],
+    						"on_exit": [],
+    						"icon": "",
+    						"helptext": "Pflichtlayer befuellt.htm",
+    						"children": [],
+    						"tools": ["mActionGTOmacro6"]
+                        },{
     						"caption": "Pflichtfelder befüllt?",
     						"on_enter": ["mActionDeselectAll", "mActionGTOmas2"],
     						"on_exit": [],
     						"icon": "",
-    						"helptext": "Dieses Tool prüft, ob alle Pflichtfelder befüllt.\nBei Fehlermeldung bitte alle möglichen Felder (siehe BMNT Digitale Datenanforderungen)\nnochmals kontrollieren.",
+    						"helptext": "Pflichtfelder befuellt.htm",
     						"children": [],
-    						"tools": ["mActionGTOmacro3"]
+    						"tools": ["mActionGTOmacro3", "mActionGTOmacro7"]
                         },{
     						"caption": "Domainwerte gültig?",
     						"on_enter": ["mActionDeselectAll", "mActionGTOmas2"],
     						"on_exit": [],
     						"icon": "",
-    						"helptext": "Dieses Tool prüft, ob alle Auswahlfelder korrekt befüllt.\nBei Fehlermeldung bitte alle möglichen Felder (siehe BMNT Digitale Datenanforderungen)\nnochmals kontrollieren.",
+    						"helptext": "Domainwerte gueltig.htm",
     						"children": [],
     						"tools": ["mActionGTOmacro2"]
             			}],
@@ -52,11 +60,11 @@
                 "icon": "",
                 "helptext": "logo_GTO.png",
                 "children": [{
-						"caption": "Projektion EPSG 31287?",
+						"caption": "Projektion aller Layer entspricht Projekt-KBS?",
                         "on_enter": [],
 						"on_exit": [],
 						"icon": "",
-						"helptext": "Dieses Tool prüft, ob alle Layer in MGI Austria Lambert (EPSG:31287) vorliegen.\nBei Fehlermeldung bitte Projektion ausgewiesener Layer ändern.",
+						"helptext": "Projektion aller Layer entspricht Projekt-KBS.htm",
 						"children": [],
 						"tools": ["mActionGTOmacro4"]
 							}
@@ -73,30 +81,13 @@
    						"on_enter": ["mActionDeselectAll", "mActionGTOmas1"],
    						"on_exit": ["mActionGTOmas2"],
    						"icon": "",
-   						"helptext": "Dieses Tool prüft, ob gelbe GFZs rote GFZs überlappen.\nRote und gelbe Gefahrenzonen mittlerer Wahrscheinlichkeit (HQ100) dürfen sich nicht \nüberlappen. Bei Fehlermeldung muss rote aus gelber Gefahrenzone ausgestanzt werden.",
+   						"helptext": "GZ100 Ueberlappungen.htm",
    						"children": [],
    						"tools": ["mActionGTOmacro1"]
    							}
    							],
                    "tools": []
-            },{
-                  "caption": "Schritt 5 - Upload",
-                  "on_enter": [],
-                  "on_exit": [],
-                  "icon": "",
-                  "helptext": "logo_GTO.png",
-                  "children": [{
-  						"caption": "Demnächst verfügbar",
-  						"on_enter": [],
-  						"on_exit": [],
-  						"icon": "",
-  						"helptext": "... Demnächst verfügbar ...",
-  						"children": [],
-  						"tools": []
-  							}
-  							],
-                  "tools": []
-               }
-			 ],
+            }
+            ],
           "tools": []
        }

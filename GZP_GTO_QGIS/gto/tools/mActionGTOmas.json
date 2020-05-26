@@ -24,6 +24,9 @@
 				"name": "BESONDERE GEFAEHRDUNGEN",
 				"visible": 0
 			},{
+				"name": "OBJEKTE, SCHUTZGUETER",
+				"visible": 0
+			},{
 				"name":"GEFAHRENZONEN, UEBERFLUTUNGSFLAECHEN",
 				"visible": 0
 			},{
@@ -38,7 +41,7 @@
 		}
 	},{
 		"id": 2,
-		"caption": "LVS All Layers",
+		"caption": "LVS All Layers except KNOTENWERTE",
 		"icon": "",
 		"icontext":"",
 		"statustip":"",
@@ -56,9 +59,12 @@
 				"visible": 2
 			},{
 				"name": "KNOTENWERTE",
-				"visible": 2
+				"visible": 0
 			},{
 				"name": "BESONDERE GEFAEHRDUNGEN",
+				"visible": 2
+			},{
+				"name": "OBJEKTE, SCHUTZGUETER",
 				"visible": 2
 			},{
 				"name":"GEFAHRENZONEN, UEBERFLUTUNGSFLAECHEN",

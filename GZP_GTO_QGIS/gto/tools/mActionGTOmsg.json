@@ -13,7 +13,7 @@
 			"config": {
 				"debug": false,
 				"title": "Prüfung GZ100",
-				"text": "Prüfung erfolgreich. Rote und gelbe GFZs überlappen nicht.",
+				"text": "Prüfung erfolgreich. Rote und gelbe GFZ überlappen nicht.",
 				"informativetext": "",
 				"detailedtext": "",
 				"icon": 0,
@@ -37,7 +37,7 @@
 			"config": {
 				"debug": false,
 				"title": "Prüfung GZ100",
-				"text": "Prüfung NICHT erfolgreich. Bitte korrigieren!\nRote und gelbe GFZs dürfen sich nicht überlappen; bitte rote aus gelber GFZ ausstanzen.",
+				"text": "Prüfung NICHT erfolgreich. Bitte korrigieren!\nRote und gelbe GFZ dürfen sich nicht überlappen; bitte rote aus gelber GFZ ausstanzen.",
 				"informativetext": "",
 				"detailedtext": "",
 				"icon": 0,

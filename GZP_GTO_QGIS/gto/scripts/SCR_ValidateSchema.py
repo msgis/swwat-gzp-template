@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-@author: ms.gis, March 2019
+@author: ms.gis, May 2020
 Script for QGIS GTO for Modul GZP
 
 """
@@ -123,7 +123,6 @@ def testDatenmodell(iface):
     # Creat interim message dictionary, shortening content
     interimMessContent = {}
     for key1 in MessageDict.keys():
-        print(key1)
         interimMessContent[key1] = []
         for key2, val2 in MessageDict[key1].items():
             if val2 == 'NA':
@@ -148,6 +147,6 @@ def testDatenmodell(iface):
     if ErrorCount == 0:
         QMessageBox.information(None, "INFORMATION", "Prüfung erfolgreich abgeschlossen. \nAlle Layer und Tabellen entsprechen dem vorgegebenen Datenschema.")
     else:
-        MessageFinal = "ACHTUNG:\n\nFolgende Layer und Tabellen entsprechen nicht dem vorgegebenen Datenschema:\n" + MessageContent + "\n\nBitte korrigieren!!! \n"
+        MessageFinal = "ACHTUNG:\n\nFolgende Layer und Tabellen entsprechen nicht dem vorgegebenen Datenschema:\n" + MessageContent + "\n\nBitte korrigieren! \n"
         QMessageBox.information(None, "FEHLERMELDUNG", MessageFinal)
     

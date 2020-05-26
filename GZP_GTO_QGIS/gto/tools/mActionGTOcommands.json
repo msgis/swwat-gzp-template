@@ -37,7 +37,7 @@
                   }
         },{
                "id": 3,
-               "caption": "SCR Message PFLICHT",
+               "caption": "SCR Message PFLICHT_FELDER",
                "icon": "",
                "icontext": "",
                "statustip": "",
@@ -48,8 +48,8 @@
                "shortcut": "",
                "config": {
                   "debug": true,
-                  "module": "SCR_CustomMessages.py",
-                  "command": "messagePFLICHT",
+                  "module": "SCR_MandatoryEntries.py",
+                  "command": "pruefungPFLICHT_FELDER",
                   "settings": {},
                   "parameters":[]
                   }
@@ -66,14 +66,14 @@
                "shortcut": "",
                "config": {
                   "debug": true,
-                  "module": "SCR_CustomMessages.py",
-                  "command": "messageDOM",
+                  "module": "SCR_MandatoryEntries.py",
+                  "command": "pruefungDOM",
                   "settings": {},
                   "parameters":[]
                   }
         },{
-               "id": 6,
-               "caption": "Synchronisierungstabelle befüllen",
+               "id": 7,
+               "caption": "SCR Message PFLICHT_LAYER",
                "icon": "",
                "icontext": "",
                "statustip": "",
@@ -84,8 +84,26 @@
                "shortcut": "",
                "config": {
                   "debug": true,
-                  "module": "SCR_CompileSyncLog.py",
-                  "command": "compileSyncLog",
+                  "module": "SCR_MandatoryEntries.py",
+                  "command": "pruefungPFLICHT_LAYER",
+                  "settings": {},
+                  "parameters":[]
+                  }
+        },{
+               "id": 8,
+               "caption": "SCR Message PFLICHT_FELDER_KNTPKT",
+               "icon": "",
+               "icontext": "",
+               "statustip": "",
+               "tooltip": "",
+               "checked": false,
+               "visible": true,
+               "whatsthis": "",
+               "shortcut": "",
+               "config": {
+                  "debug": true,
+                  "module": "SCR_MandatoryEntries.py",
+                  "command": "pruefungPFLICHT_FELDER_KNTPKT",
                   "settings": {},
                   "parameters":[]
                   }

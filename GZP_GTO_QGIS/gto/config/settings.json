@@ -1,13 +1,33 @@
-            {
-				"gto_startuptools":["mActionGTOuis1", "mActionGTOtree1", "mActionGTOqsettings1"],
-            	"toolbar_style": 0,
-				"toolbar_dock": 8,
-				"__comment": "toolbar_dock: damit sind die GTO-Befehle (Tools) gemeint; 8=unten",
-            	"gto_stylefile": "",
-            	"gto_dock": 1,
-				"tree_expand": false,
-				"remote_file": "%APPDATA%/ms.GIS/IProxy4_WLK/IProxy4_QGIS.json",
-				"remote_app_file": "M:\\BMLF\\WLK\\WLKGIS\\APP\\WLK3_NEU.accde",
-				"remote_watch_file": "%APPDATA%/ms.GIS/IProxy4_WLK/IProxy4_ACCESS.json",
-				"remote_app_title": "WLKGIS"
-            }
+{
+  "QGIS": {
+    "qgis_statusbar": true,
+    "qgis_menu": true
+  },
+  "GTO Widget": {
+    "gto_startuptools": [
+      "mActionGTOuis1",
+      "mActionGTOtree1",
+      "mActionGTOqsettings1"
+    ],
+    "gto_plugins": [
+      "GeoTaskOrganizer"
+    ],
+    "gto_dock": 1
+  },
+  "GTO Toolbar": {
+    "toolbar_style": 0,
+    "toolbar_dock": 8,
+    "__comment": "toolbar_dock: damit sind die GTO-Befehle (Tools) gemeint; 8=unten",
+    "toolbar_no_tools": []
+  },
+  "GTO Tree": {
+    "tree_expand": 0,
+    "tree_bottom": true
+  },
+  "Remote": {
+    "remote_file": "",
+    "remote_app_file": "",
+    "remote_watch_file": "",
+    "remote_app_title": ""
+  }
+}

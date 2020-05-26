@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-@author: ms.gis, March 2019
+@author: ms.gis, May 2020
 Script for ArcGIS GTO for Modul GZP
 
 """
@@ -12,13 +12,14 @@ import arcpy.da
 import json
 import inspect
 import os
+import sys
 
 
 ## -------------------------
 # Open progress dialog
 
 with pythonaddins.ProgressDialog as dialog:
-    dialog.title = "Progress Dialog"
+    dialog.title = "PRUEFUNG DATENSCHEMA"
     dialog.description = "Pruefe Datenschema aller Layer ... Bitte warten..."
     dialog.animation = "Spiral"
 
@@ -198,5 +199,5 @@ if ErrorCount == 0:
         "INFORMATION", 0)
 
 else:
-    MessageFinal = "ACHTUNG:\n\nFolgende Layer und Tabellen entsprechen nicht dem vorgegebenen Datenschema:\n" + MessageContent + "\n\nBitte korrigieren!!! \n"
+    MessageFinal = "ACHTUNG:\n\nFolgende Layer und Tabellen entsprechen nicht dem vorgegebenen Datenschema:\n" + MessageContent + "\n\nBitte korrigieren! \n"
     pythonaddins.MessageBox(MessageFinal, "FEHLERMELDUNG", 0)

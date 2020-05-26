@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1101</width>
+    <height>65</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QToolButton" name="btnNew">
+     <property name="toolTip">
+      <string>Neue Abfrage</string>
+     </property>
+     <property name="text">
+      <string>Neu</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>icons/mActionNewEntry.png</normaloff>icons/mActionNewEntry.png</iconset>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lbl1">
+     <property name="text">
+      <string>Abfrage:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="cboQuieries">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="editable">
+      <bool>false</bool>
+     </property>
+     <property name="currentText">
+      <string/>
+     </property>
+     <property name="insertPolicy">
+      <enum>QComboBox::InsertAlphabetically</enum>
+     </property>
+     <property name="sizeAdjustPolicy">
+      <enum>QComboBox::AdjustToContentsOnFirstShow</enum>
+     </property>
+     <property name="minimumContentsLength">
+      <number>25</number>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QToolButton" name="btnDelete">
+     <property name="toolTip">
+      <string>Löschen aktuelle Abfrage</string>
+     </property>
+     <property name="text">
+      <string>Löschen</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>icons/mActionDeleteSelected.png</normaloff>icons/mActionDeleteSelected.png</iconset>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lbl2">
+     <property name="toolTip">
+      <string>Layer für Abfrage</string>
+     </property>
+     <property name="text">
+      <string>Layer:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lblLayer">
+     <property name="toolTip">
+      <string>Layer für Abfrage</string>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lbl3">
+     <property name="text">
+      <string>/</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lblExpr">
+     <property name="toolTip">
+      <string>Selektionsausdruck für Abfrage</string>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QToolButton" name="btnOk">
+     <property name="toolTip">
+      <string>Selektiere laut Abfrage</string>
+     </property>
+     <property name="text">
+      <string>Selektiere</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>icons/mActionExpressionSelect.png</normaloff>icons/mActionExpressionSelect.png</iconset>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

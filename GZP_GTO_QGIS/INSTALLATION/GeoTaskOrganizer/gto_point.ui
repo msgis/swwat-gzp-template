@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1101</width>
+    <height>65</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QToolButton" name="btnPoint">
+     <property name="toolTip">
+      <string>Punkt von Karte</string>
+     </property>
+     <property name="text">
+      <string>Neu</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>icons/mActionGTOpoint.png</normaloff>icons/mActionGTOpoint.png</iconset>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="checked">
+      <bool>false</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="cboCoordSys">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="editable">
+      <bool>false</bool>
+     </property>
+     <property name="currentText">
+      <string/>
+     </property>
+     <property name="insertPolicy">
+      <enum>QComboBox::NoInsert</enum>
+     </property>
+     <property name="sizeAdjustPolicy">
+      <enum>QComboBox::AdjustToContentsOnFirstShow</enum>
+     </property>
+     <property name="minimumContentsLength">
+      <number>25</number>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QgsProjectionSelectionWidget" name="mQgsProjectionSelectionWidget"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="lblX">
+     <property name="text">
+      <string>X:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="coordX">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QToolButton" name="btnCopyXt">
+     <property name="toolTip">
+      <string>x-Koordinate kopieren</string>
+     </property>
+     <property name="text">
+      <string>Löschen</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>icons/mActionCopyFeatures.png</normaloff>icons/mActionCopyFeatures.png</iconset>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lblY">
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="text">
+      <string>Y:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="coordY">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QToolButton" name="btnCopyYt">
+     <property name="toolTip">
+      <string>y-Koordinate kopieren</string>
+     </property>
+     <property name="text">
+      <string>...</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>icons/mActionCopyFeatures.png</normaloff>icons/mActionCopyFeatures.png</iconset>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QToolButton" name="btnShow">
+     <property name="text">
+      <string>Tools</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>icons/mActionZoomPoint.png</normaloff>icons/mActionZoomPoint.png</iconset>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QToolButton" name="btnAddPoint">
+     <property name="toolTip">
+      <string>Punkt erstellen</string>
+     </property>
+     <property name="text">
+      <string>Selektiere</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>icons/mActionAddPoint.png</normaloff>icons/mActionAddPoint.png</iconset>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QgsProjectionSelectionWidget</class>
+   <extends>QWidget</extends>
+   <header>qgsprojectionselectionwidget.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

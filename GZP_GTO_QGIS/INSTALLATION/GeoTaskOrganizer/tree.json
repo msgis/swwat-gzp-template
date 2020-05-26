@@ -1,0 +1,49 @@
+{
+	"caption": "My Project",
+	"on_enter": [],
+	"on_exit": [],
+	"icon": "",
+	"helptext": null,
+	"children": [
+		{
+			"caption": "Theme",
+			"on_enter": [],
+			"on_exit": [],
+			"icon": null,
+			"helptext": "To do: config tree.json",
+			"children": [
+				{
+					"caption": "Select",
+					"on_enter": [],
+					"on_exit": [],
+					"icon": null,
+					"helptext": "logo.png",
+					"children": [
+						{
+							"caption": "Select feature",
+							"on_enter": [
+								"mActionSelectFeatures"
+							],
+							"on_exit": [
+								"mActionDeselectAll"
+							],
+							"icon": null,
+							"helptext": null,
+							"children": [],
+							"tools": [
+								"mActionGTOactivelayer",
+								"mActionSelectFeatures",
+								"mActionZoomToSelected",
+								[
+									"mActionMeasure",
+									"mActionMeasureArea"
+								]
+							]
+						}
+					],
+					"tools": []
+				}
+			]
+		}
+	]
+}
