@@ -77,6 +77,8 @@ def testDatenmodell(iface):
             # Add information on shape type
             if dsshapeType == 'Polygon':
                 shType = 'MultiPolygon'
+            elif dsshapeType == 'LineString':
+                shType = 'MultiLineString'
             else:
                 shType = dsshapeType
 

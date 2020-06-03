@@ -68,7 +68,7 @@ with pythonaddins.ProgressDialog as dialog:
                 if dsshapeType == u'Polygon':
                     shType = unicode('MultiPolygon')
                 elif dsshapeType == u'Polyline':
-                    shType = unicode('LineString')
+                    shType = unicode('MultiLineString')
                 else:
                     shType = dsshapeType
 

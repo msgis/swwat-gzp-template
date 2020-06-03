@@ -755,7 +755,7 @@
       null
     ],
     "SHAPE": [
-      "LineString",
+      "MultiLineString",
       0,
       null
     ]
@@ -1206,7 +1206,7 @@
       null
     ],
     "SHAPE": [
-      "LineString",
+      "MultiLineString",
       0,
       null
     ]
@@ -1268,7 +1268,7 @@
       null
     ],
     "SHAPE": [
-      "LineString",
+      "MultiLineString",
       0,
       null
     ]
@@ -1342,7 +1342,7 @@
       null
     ],
     "SHAPE": [
-      "LineString",
+      "MultiLineString",
       0,
       null
     ]
@@ -1453,7 +1453,7 @@
       null
     ],
     "SHAPE": [
-      "LineString",
+      "MultiLineString",
       0,
       null
     ]
@@ -1537,7 +1537,7 @@
       null
     ],
     "SHAPE": [
-      "LineString",
+      "MultiLineString",
       0,
       null
     ]
