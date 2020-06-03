@@ -1,5 +1,5 @@
 """
-@author: ms.gis, March 2020
+@author: ms.gis, May 2020
 Script for QGIS GTO for Modul GZP
 
 """
@@ -43,9 +43,9 @@ def pruefungPFLICHT_LAYER(iface):
                 listKat = [] 
                 feats = layer.getFeatures()
                 for feat in feats:
-                    listKat.append(feat["SZENARIO"])                
-                # Check that all szenarios (30, 100, 300) present
-                if sorted(set(listKat)) != [30,100,300]:
+                    listKat.append(feat["L_KATEGO"])                
+                # Check that all categories (1,2,3) present
+                if sorted(set(listKat)) != [1,2,3]:
                     lyrList.append(SrcName)
 
             elif SrcName == "GZ100":

@@ -65,11 +65,11 @@ with pythonaddins.ProgressDialog as dialog:
 
             elif lyrSrcName == "UFHQN":
                 listKat = []
-                with arcpy.da.SearchCursor(lyr, ["SZENARIO"]) as cursor:
+                with arcpy.da.SearchCursor(lyr, ["L_KATEGO"]) as cursor:
                     for row in cursor:
                         listKat.append(row[0])
-                    # Check that all szenarios (30, 100, 300) present
-                    if sorted(set(listKat)) != [30,100,300]:
+                    # Check that all scenario categories (1,2,3) present
+                    if sorted(set(listKat)) != [1,2,3]:
                         lyrList.append(lyrSrcName)
 
             elif lyrSrcName == "GZ100":
