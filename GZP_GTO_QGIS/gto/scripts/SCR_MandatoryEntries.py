@@ -1,5 +1,5 @@
 """
-@author: ms.gis, May 2020
+@author: ms.gis, June 2020
 Script for QGIS GTO for Modul GZP
 
 """
@@ -45,7 +45,7 @@ def pruefungPFLICHT_LAYER(iface):
                 for feat in feats:
                     listKat.append(feat["L_KATEGO"])                
                 # Check that all categories (1,2,3) present
-                if sorted(set(listKat)) != [1,2,3]:
+                if not {1,2,3}.issubset(listKat):
                     lyrList.append(SrcName)
 
             elif SrcName == "GZ100":
@@ -58,7 +58,7 @@ def pruefungPFLICHT_LAYER(iface):
                 for feat in feats:
                     listKat.append(feat["L_KATEGO"])
                 #Check that categories (1, 2) present
-                if sorted(set(listKat)) != [1,2]:
+                if not {1, 2}.issubset(listKat):
                     lyrList.append(SrcName)
 
             elif SrcName == "GZ300":
@@ -67,7 +67,7 @@ def pruefungPFLICHT_LAYER(iface):
                 for feat in feats:
                     listKat.append(feat["L_KATEGO"])                
                 # Check that category "Gelb-schraffierte Zone" (2) present
-                if 2 not in sorted(set(listKat)):
+                if 2 not in set(listKat):
                     lyrList.append(SrcName)
 
             elif SrcName == "FUNKT":
@@ -76,7 +76,7 @@ def pruefungPFLICHT_LAYER(iface):
                 for feat in feats:
                     listKat.append(feat["L_KATEGO"])                
                 # Check that category "Rot-Gelb-schraffierter Funktionsbereich" present
-                if 1 not in sorted(set(listKat)):
+                if 1 not in set(listKat):
                     lyrList.append(SrcName)
 
             elif SrcName == "KNTPKT":
@@ -84,8 +84,8 @@ def pruefungPFLICHT_LAYER(iface):
                 feats = layer.getFeatures()
                 for feat in feats:
                     listKat.append(feat["SZENARIO"])
-                    # Check that all szenarios (30, 100, 300) present
-                if sorted(set(listKat)) != [30, 100, 300]:
+                # Check that all szenarios (30, 100, 300) present
+                if not {30, 100, 300}.issubset(listKat):
                     lyrList.append(SrcName)
 
             elif SrcName == "GPLBAU":
@@ -94,7 +94,7 @@ def pruefungPFLICHT_LAYER(iface):
                 for feat in feats:
                     listKat.append(feat["L_KATEGO"])                
                 # Check that category "beplant od. verbaut" (1) present
-                if 1 not in sorted(set(listKat)):
+                if 1 not in set(listKat):
                     lyrList.append(SrcName)
                 
             elif SrcName == "BWERT":
@@ -103,7 +103,7 @@ def pruefungPFLICHT_LAYER(iface):
                 for feat in feats:
                     listKat.append(feat["SZENARIO"])                
                 # Check that all szenarios (30, 100, 300) present
-                if sorted(set(listKat)) != [30,100,300]:
+                if not {30, 100, 300}.issubset(listKat):
                     lyrList.append(SrcName)
                     
             elif SrcName in ["GFPKT", "GFLIN", "GFFLA"]:
@@ -118,7 +118,7 @@ def pruefungPFLICHT_LAYER(iface):
                 for feat in feats:
                     listKat.append(feat["L_KATEGO"])
                 # Check that at least categories 1 & 2 present
-                if not set([1,2]).issubset(sorted(set(listKat))):
+                if not {1,2}.issubset(listKat):
                     lyrList.append(SrcName)
 
             QApplication.processEvents()

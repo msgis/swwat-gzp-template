@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-@author: ms.gis, May 2020
+@author: ms.gis, June 2020
 Script for ArcGIS GTO for Modul GZP
 
 """
@@ -69,7 +69,7 @@ with pythonaddins.ProgressDialog as dialog:
                     for row in cursor:
                         listKat.append(row[0])
                     # Check that all scenario categories (1,2,3) present
-                    if sorted(set(listKat)) != [1,2,3]:
+                    if not {1,2,3}.issubset(listKat):
                         lyrList.append(lyrSrcName)
 
             elif lyrSrcName == "GZ100":
@@ -81,7 +81,7 @@ with pythonaddins.ProgressDialog as dialog:
                     for row in cursor:
                         listKat.append(row[0])
                     # Check that categories (1, 2) present
-                    if sorted(set(listKat)) != [1,2]:
+                    if not {1, 2}.issubset(listKat):
                         lyrList.append(lyrSrcName)
 
             elif lyrSrcName == "GZ300":
@@ -90,7 +90,7 @@ with pythonaddins.ProgressDialog as dialog:
                     for row in cursor:
                         listKat.append(row[0])
                     # Check that category "Gelb-schraffierte Zone" (2) present
-                    if 2 not in sorted(set(listKat)):
+                    if 2 not in set(listKat):
                         lyrList.append(lyrSrcName)
 
             elif lyrSrcName == "FUNKT":
@@ -99,7 +99,7 @@ with pythonaddins.ProgressDialog as dialog:
                     for row in cursor:
                         listKat.append(row[0])
                     # Check that category "Rot-Gelb-schraffierter Funktionsbereich" (1) present
-                    if 1 not in sorted(set(listKat)):
+                    if 1 not in set(listKat):
                         lyrList.append(lyrSrcName)
 
             elif lyrSrcName == "KNTPKT":
@@ -108,7 +108,7 @@ with pythonaddins.ProgressDialog as dialog:
                     for row in cursor:
                         listKat.append(row[0])
                     # Check that all szenarios (30, 100, 300) present
-                    if sorted(set(listKat)) != [30,100,300]:
+                    if not {30, 100, 300}.issubset(listKat):
                         lyrList.append(lyrSrcName)
 
             elif lyrSrcName == "GPLBAU":
@@ -117,7 +117,7 @@ with pythonaddins.ProgressDialog as dialog:
                     for row in cursor:
                         listKat.append(row[0])
                     # Check that category "beplant od. verbaut" (1) present
-                    if 1 not in sorted(set(listKat)):
+                    if 1 not in set(listKat):
                         lyrList.append(lyrSrcName)
 
             elif lyrSrcName == "BWERT":
@@ -126,7 +126,7 @@ with pythonaddins.ProgressDialog as dialog:
                     for row in cursor:
                         listKat.append(row[0])
                     # Check that all szenarios (30, 100, 300) present
-                    if sorted(set(listKat)) != [30,100,300]:
+                    if not {30, 100, 300}.issubset(listKat):
                         lyrList.append(lyrSrcName)
 
             elif lyrSrcName in ["GFPKT", "GFLIN", "GFFLA"]:
@@ -135,7 +135,7 @@ with pythonaddins.ProgressDialog as dialog:
 
             elif lyrSrcName in ["OBPKT", "OBLIN", "OBFLA"]:
                 result = arcpy.GetCount_management(lyr)
-                countBGef += int(result.getOutput(0))
+                countObj += int(result.getOutput(0))
 
             elif lyrSrcName == "QPLIN":
                 listKat = []
@@ -143,7 +143,7 @@ with pythonaddins.ProgressDialog as dialog:
                     for row in cursor:
                         listKat.append(row[0])
                     # Check that at least categories 1 & 2 present
-                    if not set([1,2]).issubset(sorted(set(listKat))):
+                    if not {1,2}.issubset(listKat):
                         lyrList.append(lyrSrcName)
 
     # Test if at least one feature of Besondere Gefährdungen or Objekte present

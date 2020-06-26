@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 """
-@author: ms.gis, May 2020
+@author: ms.gis, June 2020
 Script for QGIS GTO for Modul GZP
 
 """
@@ -33,6 +33,8 @@ def testProjektion(iface):
             # Test if feature layer (opposed to table or raster)
             if layer.isSpatial() and layer.type() != QgsMapLayer.RasterLayer:
                 SrcName = layer.source().split('|layername=')[1].split('|')[0]
+                # Reload layer to get correct crs info
+                layer.setDataSource(layer.source(), layer.name(), 'ogr')
                 # Get crs info
                 lyr_crs = layer.sourceCrs().authid()
 
@@ -42,7 +44,7 @@ def testProjektion(iface):
                     MessageInhalt += "{}\n".format(SrcName)
 
         if ErrorCount == 0:
-            QMessageBox.information(None, "INFORMATION", "Prüfung erfolgreich abgeschlossen. \nAlle Feature Layer liegen im Projekt-KBS ({}) vor.".format(projCrs))
+            QMessageBox.information(None, "INFORMATION", "Prüfung erfolgreich abgeschlossen. \nAlle Feature-Layer liegen im Projekt-KBS ({}) vor.".format(projCrs))
         else:
             MessageFinal = "ACHTUNG:\n\nFolgende Layer liegen nicht im Projekt-KBS ({}) vor: \n\n{}\nBitte korrigieren! \n".format(projCrs, MessageInhalt)
             QMessageBox.critical(None, "FEHLERMELDUNG", MessageFinal)

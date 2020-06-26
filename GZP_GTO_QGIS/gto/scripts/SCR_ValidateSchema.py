@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-@author: ms.gis, May 2020
+@author: ms.gis, June 2020
 Script for QGIS GTO for Modul GZP
 
 """
